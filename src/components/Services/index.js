@@ -3,7 +3,6 @@ import { BiCookie, BiFootball } from 'react-icons/bi';
 import { RiBus2Line, RiPencilRulerLine } from 'react-icons/ri';
 import { IoColorPaletteOutline, IoDesktopOutline } from 'react-icons/io5';
 import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper, GuidelineWrapper, GuidelineDate, GuidelineLinkRouter } from './ServicesElements';
-import GuidelinePdf from '../../assets/pdf/guidelines.pdf';
 
 const Services = () => {
     return (
@@ -41,7 +40,7 @@ const Services = () => {
             </ServicesWrapper>
             <GuidelineWrapper>
                 <GuidelineLinkRouter
-                    href={GuidelinePdf}
+                    href="http://www.kotori-haibara.com.s3-website-ap-northeast-1.amazonaws.com/guidelines.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
                         <GuidelineDate>2022/04/01</GuidelineDate>
