@@ -45,7 +45,7 @@ export default function Contact() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_japxrbc', 'template_znbxkd4', e.target, 'user_wx5pGqL7cj6I6jerBeoiF')
+        emailjs.sendForm('service_japxrbc', 'template_znbxkd4', e.target, 'Fq2bujCaUWSkbGTfh')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
