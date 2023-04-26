@@ -13,7 +13,7 @@ export const ServicesContainer = styled.div`
 
 export const ServicesWrapper = styled.div`
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -89,7 +89,7 @@ export const ServicesIcon = styled.h3`
 `
 
 export const GuidelineWrapper = styled.div`
-    margin: 60px auto 0;
+    margin: 5px auto 0;
     padding: 13px;
     min-width: 778px;
     max-width: 1100px;
