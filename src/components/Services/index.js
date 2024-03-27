@@ -56,6 +56,15 @@ const Services = () => {
                         放課後等デイサービスガイドライン 評価表
                 </GuidelineLinkRouter>
             </GuidelineWrapper>
+            <GuidelineWrapper>
+                <GuidelineLinkRouter
+                    href="https://s3.ap-northeast-1.amazonaws.com/www.kotori-haibara.com/guidlines_2024.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <GuidelineDate>2024/04/01</GuidelineDate>
+                        放課後等デイサービスガイドライン 評価表
+                </GuidelineLinkRouter>
+            </GuidelineWrapper>
         </ServicesContainer>
     )
 }
