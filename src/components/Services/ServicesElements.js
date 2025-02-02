@@ -122,3 +122,16 @@ export const GuidelineLinkRouter = styled.a`
     align-items: center;
     text-decoration: none;
 `
+
+export const Discription = styled.p`
+    max-width: 800px;
+    margin-bottom: 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+
+    @media screen and (max-width: 768px) {
+        letter-spacing: 0;
+    }
+`

@@ -29,3 +29,17 @@ export const ButtonStickey = styled.div`
     bottom: 50px;
     right: 50px;
 `
+
+export const ButtonUnderline = styled.button`
+    border-color: transparent;
+    background-color: transparent;
+    color:  #ECD82E;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    &:hover {
+        border-bottom: 2px solid #ECD82E;
+    }
+`
