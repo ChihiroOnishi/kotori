@@ -2,7 +2,7 @@ import React from 'react';
 import { BiCookie, BiFootball } from 'react-icons/bi';
 import { RiBus2Line, RiPencilRulerLine } from 'react-icons/ri';
 import { IoColorPaletteOutline, IoDesktopOutline } from 'react-icons/io5';
-import { FaRegFilePdf } from "react-icons/fa6";
+import { GrDocumentPdf } from "react-icons/gr";
 import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper, GuidelineWrapper, GuidelineDate, GuidelineLinkRouter, Discription } from './ServicesElements';
 import { ButtonUnderline } from '../ButtonElements';
 
@@ -17,7 +17,7 @@ const Services = () => {
                     target="_blank"
                     rel="noopener noreferrer">
                     <ButtonUnderline>
-                        <FaRegFilePdf /> 支援プログラム
+                        <GrDocumentPdf /> 支援プログラム
                     </ButtonUnderline>
                 </a>
             </Discription>
